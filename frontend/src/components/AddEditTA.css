@@ -1,0 +1,62 @@
+.add-edit-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Center the card vertically */
+    background-color: #121212;
+    /* Dark background color */
+    padding: 20px;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #ffffff;
+    /* White text color */
+    margin-bottom: 20px;
+}
+
+form {
+    width: 80%;
+    max-width: 600px;
+    /* Set a maximum width for the form */
+    background-color: #1e1e1e;
+    /* Slightly lighter dark background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center the content horizontally */
+}
+
+input,
+textarea,
+select {
+    background-color: #1e1e1e;
+    /* Slightly lighter dark background */
+    color: #ffffff;
+    /* White text color */
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #6a0dad;
+    /* Accent color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #551a8b;
+    /* Darker accent color on hover */
+}

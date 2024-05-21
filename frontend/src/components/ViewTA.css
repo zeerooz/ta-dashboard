@@ -1,0 +1,113 @@
+.view-ta-container {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    background-color: #121212;
+    /* Dark background color */
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.view-ta-card {
+    background-color: #1e1e1e;
+    /* Slightly lighter dark background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    /* Darker shadow */
+    width: 80%;
+    max-width: 1200px;
+    /* Increased max-width for wider screens */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.view-ta-card h1 {
+    margin-bottom: 20px;
+    color: #ffffff;
+    /* White text color */
+}
+
+.view-ta-card img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.view-ta-details {
+    width: 100%;
+    text-align: left;
+}
+
+.view-ta-details p {
+    margin: 10px 0;
+    color: #cccccc;
+    /* Light grey text color */
+}
+
+.view-ta-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.view-ta-buttons .btn {
+    padding: 10px 20px;
+    background-color: #6a0dad;
+    /* Accent color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.view-ta-buttons .btn:hover {
+    background-color: #551a8b;
+    /* Darker accent color on hover */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+    .view-ta-card {
+        width: 90%;
+        /* Adjust width for smaller screens */
+        max-width: 900px;
+        /* Reduce max-width for smaller screens */
+    }
+}
+
+@media (max-width: 900px) {
+    .view-ta-card {
+        width: 100%;
+        /* Full width for smaller screens */
+        max-width: 600px;
+        /* Reduce max-width for smaller screens */
+    }
+
+    .view-ta-buttons {
+        flex-direction: column;
+    }
+
+    .view-ta-buttons .btn {
+        margin: 5px 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .view-ta-container {
+        padding: 10px;
+    }
+
+    .view-ta-card {
+        padding: 10px;
+    }
+}
