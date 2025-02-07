@@ -1,9 +1,9 @@
-#AWS-Hosted Web Application
+# AWS-Hosted Web Application
 
-#Project Overview
+# Project Overview
 This project involves designing and implementing a simple web application using a JavaScript stack, with the goal to perform CRUD (Create, Read, Update, Delete) operations on a chosen dataset. The application is hosted on AWS EC2 instances and utilizes various AWS services including DynamoDB for database storage, S3 for image uploads, and AWS SDK for backend interactions.
 
-#Features
+# Features
 CRUD Operations: Manage data with the ability to create, read, update, and delete entries.
 High Availability Architecture: Utilizes multiple EC2 instances across different Availability Zones to ensure service reliability and availability.
 AWS DynamoDB: Leverages DynamoDB to store and retrieve data efficiently.
@@ -11,7 +11,7 @@ AWS S3 Image Upload: Integrates S3 for storing and managing images associated wi
 AWS Lambda: Uses Lambda for image resizing tasks triggered by data creation.
 AWS SDK: Employs AWS SDK for JavaScript to interact programmatically with AWS services.
 
-#Technology Stack
+# Technology Stack
 Frontend: React.js or AngularJS based on your chosen stack (e.g., MERN or MEAN).
 Backend: Node.js with Express.js.
 Database: AWS DynamoDB.
@@ -53,6 +53,10 @@ The dashboard included user-friendly interaction elements:
 The primary purpose of the TA Dashboard was to streamline communication between students and their TAs. By providing all necessary contact details and office hours in one accessible location, the dashboard made it simpler for students to connect with their TAs, thus fostering a supportive learning environment. This functionality was especially beneficial for new students and those engaged in larger courses needing frequent TA interaction.
 
 This integration was a part of the larger AWS-hosted web application project, designed to ensure high availability and resilience through AWS services like EC2, DynamoDB, and S3, enhancing the overall user experience by providing reliable and scalable web application solutions.
+
+
 ![Image](https://github.com/user-attachments/assets/65dfdeeb-1675-4065-9b8d-24139196c612)
+
 ![Image](https://github.com/user-attachments/assets/08a064f3-03c1-42e5-8db2-dd9ac7427fe4)
+
 ![Image](https://github.com/user-attachments/assets/40a81227-3db2-4f02-80cb-06b48f00340b)
