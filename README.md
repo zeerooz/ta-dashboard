@@ -27,7 +27,7 @@ and the AWS services described herein are not currently operational.
 This documentation remains for archival purposes and historical reference only.
 
 
-### TA Dashboard - User Profile Feature
+# TA Dashboard - User Profile Feature
 
 The TA Dashboard, part of the web application hosted on AWS, provided a centralized interface specifically designed to assist students by displaying essential information about Teaching Assistants (TAs) at the university. This feature was crucial for enhancing the accessibility of TAs to students, promoting better communication and support in academic activities.
 
